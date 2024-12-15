@@ -1,0 +1,31 @@
+body {
+    margin: 30px;
+    user-select: none;
+}
+table {
+    border-collapse : collapse; /*이중선 제거*/
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+th {
+    background-color: darkgray;
+    color: white;
+}
+th, td {
+    padding: 7px;
+    text-align: center;
+    border: 1px solid #333;
+    
+    vertical-align: top;	/* 위 */
+    vertical-align: bottom;   /* 아래 */
+    vertical-align: middle;   /* 가운데 */
+}
+label i {
+    color: darkgray;
+    font-size: 0.7em;
+}
+button {
+    width: 100%;
+    padding: 20px;
+    font-size: 1.3em;
+}
